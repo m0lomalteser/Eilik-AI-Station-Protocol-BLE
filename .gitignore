@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+/eilikprobe
+*.o
+*.dSYM/
+
+# Python
+/venv/
+
+# Node (legacy probe tooling, not part of the Swift tool)
+/node_modules/
+package.json
+package-lock.json
+
+# Extracted app JS (Hermes bytecode dump of the proprietary app) — not committed
+/module_*.js
+/[0-9]*_*.js
